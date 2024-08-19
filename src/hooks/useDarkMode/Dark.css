@@ -1,0 +1,44 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode-btn {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode-btn:hover {
+    background-color: #555;
+  }
+  
+  .dark-mode-btn:active {
+    background-color: #222;
+  }
+  
+  .light-mode-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .light-mode-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .light-mode-btn:active {
+    background-color: #e0e0e0;
+  }
+  
